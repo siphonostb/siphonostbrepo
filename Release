@@ -1,0 +1,29 @@
+Architectures: iphoneos-arm64
+Codename: ios
+Components: main
+Date: Sat, 10 Oct 2026 20:21:21 +0000
+Description: A repository with great and very useful iOS tweaks
+Label: Siphonostb Repo
+Origin: Siphonostb Repo
+Suite: stable
+Version: 1.0
+MD5Sum:
+ 1f33a028623bbb78ee9ff7fbae2c6174              517 Packages
+ a26226d74e320319182e122956f8b8e8              400 Packages.bz2
+ 78dc1416d6bbdfa67344c133b5d7fc85              375 Packages.gz
+ 27b5db0c6967165de448057d39386c74              436 Packages.xz
+SHA1:
+ ff55d2ea75f050059b1ba47c8268ac854900dd91              517 Packages
+ c71fa37bd2cadfbd2d2bad2f7b479b17643359f5              400 Packages.bz2
+ cc3b002f426ad453ca3be745ebb9a2d846abc57b              375 Packages.gz
+ 1a2472ada50f71196a15a6bdeab8afd4dbfcf3bc              436 Packages.xz
+SHA256:
+ bf2ad303d280c83eb22c65aa2195b9a746f15c29b701b2deb7ee444d09e793a8              517 Packages
+ 838f33e26057b9533119a2a295cc8086cca98914f34c921753026e07fb6d8006              400 Packages.bz2
+ 4651ecd4e315091310c54e153bc4f8bf932b111df6b93db122619282adbfa3c0              375 Packages.gz
+ 2660746172ed39219117e99f930a9ee6a95b180778f02d2b6862bac2bde1dcbd              436 Packages.xz
+SHA512:
+ 8a72b6956289aa729cd4ffed666bcd8d45fdd92b1b8dc66bf514c64ad0b0699a7140e38a7632f66558f4a7c10131231b53e57090ce8d19966bf3152ada59c238              517 Packages
+ a08fc8c01047368bd974a9020fb9d1c022e5218dacc205484343a9639b995a038ba7cdcd316591bd801093b0140afa92e4d1d02cec3e800044ae320b57bec6dc              400 Packages.bz2
+ d7098bde4dfe2c6a00abd0707a0070debfcbf38a781c7b1e7cd77a1378c4e1db3dce66fb4f6b595eb37a85b8355cc074aa121ad0d76ac11cf90bdf051ac7c39b              375 Packages.gz
+ 48186b5684f93396dc839ca111fd302cc99481c604e63d46e58335e9ce42a3bedebe3a74ef6d77b7b2dbf4e5481726305e0c835f9a71c68ca0e935cdf1d20c09              436 Packages.xz
