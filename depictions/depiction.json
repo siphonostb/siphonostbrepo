@@ -1,0 +1,80 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/banner.png",
+  "tintColor": "#3478F6",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Gestures16** brings the full native iOS gesture navigation to Home button iPhones.\n\nIt enables gesture mode on iPhone 8, iPhone SE (2020) and iPhone SE (2022) running iOS 16.0 – 16.7.16, so your device works just like a Face ID iPhone.\n\n**Features:**\n- Full native iOS gesture system: swipe up to go Home, open the App Switcher and swipe between apps\n- iPhone X-style status bar\n- Quick Actions (Flashlight and Camera) on the Lock Screen\n\n**Note:** so far the tweak has only been tested on iPhone 8. iPhone 8 Plus is expected to work, but haven't been tested yet.\n\nThere are no settings yet — just install and respring."
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 346}",
+          "screenshots": [
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.png",
+              "accessibilityText": "Screenshot 1"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/2.png",
+              "accessibilityText": "Screenshot 2"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.png",
+              "accessibilityText": "Screenshot 3"
+            }
+          ]
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 16.0 – 16.7.16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Devices",
+          "text": "iPhone 8, SE (2020), SE (2022)"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tested on",
+          "text": "iPhone 8"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "Siphonostb"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial public release"
+        }
+      ]
+    }
+  ]
+}
