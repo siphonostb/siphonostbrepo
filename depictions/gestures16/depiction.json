@@ -48,27 +48,28 @@
           ]
         },
         {
-          "class": "DepictionSubheaderView",
+          "class": "DepictionHeaderView",
           "title": "Features",
           "useBoldText": true,
           "useBottomMargin": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- **Native gesture navigation** — swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to jump between apps\n- **Face ID-style status bar** — the modern iPhone X layout with the clock on the left and Control Center access from the top-right corner\n- **Lock Screen Quick Actions** — Flashlight and Camera buttons right on the Lock Screen"
+          "useRawFormat": true,
+          "markdown": "<style>ul{margin:0;padding-left:20px;}li{line-height:1.45;margin-bottom:12px;}</style><ul><li><b>Native gesture navigation</b> — swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to jump between apps</li><li><b>Face ID-style status bar</b> — the modern iPhone X layout with the clock on the left and Control Center access from the top-right corner</li><li><b>Lock Screen Quick Actions</b> — Flashlight and Camera buttons right on the Lock Screen</li></ul>"
         },
         {
-          "class": "DepictionSubheaderView",
+          "class": "DepictionHeaderView",
           "title": "Compatibility",
           "useBoldText": true,
           "useBottomMargin": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Supported on **iPhone 8**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**.\n\nIt may also work on iPhone 8 Plus, but this hasn't been tested yet."
+          "markdown": "Supported on **iPhone 8**, **iPhone 8 Plus**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**."
         },
         {
-          "class": "DepictionSubheaderView",
+          "class": "DepictionHeaderView",
           "title": "Settings",
           "useBoldText": true,
           "useBottomMargin": true
@@ -83,7 +84,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.0"
+          "text": "1.0.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -101,6 +102,18 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.1",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed status bar layout on iPhone 8 Plus"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.0",
