@@ -9,13 +9,25 @@
       "class": "DepictionStackView",
       "views": [
         {
+          "class": "DepictionHeaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "**Gestures16** brings the full native iOS gesture navigation to Home button iPhones.\n\nIt enables gesture mode on iPhone 8, iPhone SE (2020) and iPhone SE (2022) running iOS 16.0 – 16.7.16, so your device works just like a Face ID iPhone.\n\n**Features:**\n- Full native iOS gesture system: swipe up to go Home, open the App Switcher and swipe between apps\n- iPhone X-style status bar\n- Quick Actions (Flashlight and Camera) on the Lock Screen\n\n**Note:** so far the tweak has only been tested on iPhone 8. iPhone 8 Plus is expected to work, but haven't been tested yet.\n\nThere are no settings yet — just install and respring."
+          "markdown": "**Gestures16** unlocks the native iOS gesture navigation on iPhones with a Home button."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Screenshots",
+          "useBoldText": true,
+          "useBottomMargin": true
         },
         {
           "class": "DepictionScreenshotsView",
           "itemCornerRadius": 8,
-          "itemSize": "{160, 346}",
+          "itemSize": "{160, 284}",
           "screenshots": [
             {
               "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.png",
@@ -28,8 +40,42 @@
             {
               "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.png",
               "accessibilityText": "Screenshot 3"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/4.png",
+              "accessibilityText": "Screenshot 4"
             }
           ]
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Features",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Native gesture navigation** — swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to jump between apps\n- **Face ID-style status bar** — the modern iPhone X layout with the clock on the left and Control Center access from the top-right corner\n- **Lock Screen Quick Actions** — Flashlight and Camera buttons right on the Lock Screen"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Compatibility",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Supported on **iPhone 8**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**.\n\nIt may also work on iPhone 8 Plus, but this hasn't been tested yet."
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Settings",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Gestures16 has no settings yet — the only option is to turn it on or off. More customization is planned for future updates."
         },
         {
           "class": "DepictionSeparatorView"
@@ -41,18 +87,8 @@
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Compatibility",
-          "text": "iOS 16.0 – 16.7.16"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Devices",
-          "text": "iPhone 8, SE (2020), SE (2022)"
-        },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Tested on",
-          "text": "iPhone 8"
+          "title": "iOS",
+          "text": "16.0 – 16.7.16"
         },
         {
           "class": "DepictionTableTextView",
