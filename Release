@@ -1,29 +1,33 @@
 Architectures: iphoneos-arm64
 Codename: ios
 Components: main
-Date: Sat, 10 Oct 2026 20:21:21 +0000
+Date: Sun, 11 Oct 2026 00:05:09 +0000
 Description: A repository with great and very useful iOS tweaks
 Label: Siphonostb Repo
 Origin: Siphonostb Repo
 Suite: stable
 Version: 1.0
 MD5Sum:
- 1f33a028623bbb78ee9ff7fbae2c6174              517 Packages
- a26226d74e320319182e122956f8b8e8              400 Packages.bz2
- 78dc1416d6bbdfa67344c133b5d7fc85              375 Packages.gz
- 27b5db0c6967165de448057d39386c74              436 Packages.xz
+ 234a36467c6f8749db3952dd196fe652              765 Packages
+ eda08e3fea1da4de74e81f719113a35b              519 Packages.bz2
+ 0f8227db88963f2f32997e66e8a36039              463 Packages.gz
+ d30e7bf80468df1b7aff5415482a6207              528 Packages.xz
+ cbe219a298c685b6e83d121926c96f27             1811 Release
 SHA1:
- ff55d2ea75f050059b1ba47c8268ac854900dd91              517 Packages
- c71fa37bd2cadfbd2d2bad2f7b479b17643359f5              400 Packages.bz2
- cc3b002f426ad453ca3be745ebb9a2d846abc57b              375 Packages.gz
- 1a2472ada50f71196a15a6bdeab8afd4dbfcf3bc              436 Packages.xz
+ 5f7abc50c80a518ed9749650437e8fba5bf3147d              765 Packages
+ 6957e10ffdcc186fc6d4761220fd5ce3d8071d99              519 Packages.bz2
+ e58b85efffea6c8caf0421a51ef3a421e017b3f1              463 Packages.gz
+ b3d93a8ef4dc3421eadf65ca67174552be97aed1              528 Packages.xz
+ ece3ae80f46f3ededa475940ecbbd8faa4254dc4             1811 Release
 SHA256:
- bf2ad303d280c83eb22c65aa2195b9a746f15c29b701b2deb7ee444d09e793a8              517 Packages
- 838f33e26057b9533119a2a295cc8086cca98914f34c921753026e07fb6d8006              400 Packages.bz2
- 4651ecd4e315091310c54e153bc4f8bf932b111df6b93db122619282adbfa3c0              375 Packages.gz
- 2660746172ed39219117e99f930a9ee6a95b180778f02d2b6862bac2bde1dcbd              436 Packages.xz
+ e7f639438f9788275572812bf3440026c68790339556c1b0a1e63f0874511632              765 Packages
+ fb0dcc75401f9ced03ca0d9f55054329bd5497504354099c62d1bd5254006c6a              519 Packages.bz2
+ 9b59fd77ae2c3b34df5cbafea02f668f4604e0116cc55ff9ef501452baaa156c              463 Packages.gz
+ c1db8136efc874b9cd898c5c3e1ce7499cfd8083d24091b08f5cd19dcf95082c              528 Packages.xz
+ 712d1a74dc7f772211ba1ed748b2a5b01469e9c59d9d4e658ae42772b18d7690             1811 Release
 SHA512:
- 8a72b6956289aa729cd4ffed666bcd8d45fdd92b1b8dc66bf514c64ad0b0699a7140e38a7632f66558f4a7c10131231b53e57090ce8d19966bf3152ada59c238              517 Packages
- a08fc8c01047368bd974a9020fb9d1c022e5218dacc205484343a9639b995a038ba7cdcd316591bd801093b0140afa92e4d1d02cec3e800044ae320b57bec6dc              400 Packages.bz2
- d7098bde4dfe2c6a00abd0707a0070debfcbf38a781c7b1e7cd77a1378c4e1db3dce66fb4f6b595eb37a85b8355cc074aa121ad0d76ac11cf90bdf051ac7c39b              375 Packages.gz
- 48186b5684f93396dc839ca111fd302cc99481c604e63d46e58335e9ce42a3bedebe3a74ef6d77b7b2dbf4e5481726305e0c835f9a71c68ca0e935cdf1d20c09              436 Packages.xz
+ 7c8dd7652109ea5f835f910201d58296b552380bb4a8fd4d1843835b9602aec9ced25d081fb74e027e2ec76421ef314a760a826b25baacdb2722e68ae86b72bf              765 Packages
+ 8f5d2d07960a3459223d89be6c66b37059141cbac6bcdfa7598e5a906ebbada875a6d531730a38610fff9447edb0c9c39f612ec6bb5d91bcb22f5c310767faf5              519 Packages.bz2
+ 9b93b09523d8260370707edae08192153b37bd78142f6839add5238b827d7c605945c3fb9d1a8345ada9a2723aee3d8137bf60474d4f7283fdf5dc47e6d3972b              463 Packages.gz
+ b77acaf73d198813acf291d2d3e8cb452c0685ffc6f6db9d0e6269a534832831c62284dff729256f846420a116fb70e40edc7d477c126f8cce654cd8d6bb8add              528 Packages.xz
+ 868568d0db375518992e185eb0b9ef3806d311f67cbbcbd6c6a75c98033c9e2cd0b9c509260fba399532b160fcec35d1b17acfe4e21fbe03191d88060627b894             1811 Release

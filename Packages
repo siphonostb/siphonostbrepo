@@ -3,14 +3,16 @@ Version: 1.0.0
 Architecture: iphoneos-arm64
 Maintainer: Siphonostb
 Installed-Size: 384
-Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
 Filename: ./debs/com.siphonostb.gestures16_1.0.0_iphoneos-arm64.deb
-Size: 13504
-MD5sum: 03d7fedc8bd3e2b0dde5112345d22a1d
-SHA1: 6b22e1f260916cea2691c65a958cf8b21995a364
-SHA256: 59805b4f43bd6c48d13f9fa8443c26376b22665587c797923f9cb8e3805fc2ae
+Size: 13616
+MD5sum: 5bb009928a7ffacb1cd03c086602ff94
+SHA1: f681f0b56bda29c20501f1cd091388ef555d2bd8
+SHA256: 7999fb2fdcd6a853962f0168cd0563049a2c9de08ce3d14556b0b46895fe0f00
 Section: Tweaks
-Description: Gesture navigation for iOS 16.
+Description: Native gesture navigation for Home button iPhones on iOS 16.
 Author: Siphonostb
+Icon: https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/icon.png
 Name: Gestures16
+Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/depiction.json
 
