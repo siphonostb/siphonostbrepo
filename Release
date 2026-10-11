@@ -1,33 +1,33 @@
 Architectures: iphoneos-arm64
 Codename: ios
 Components: main
-Date: Sun, 11 Oct 2026 15:28:16 +0000
+Date: Sun, 11 Oct 2026 16:38:19 +0000
 Description: A repository with great and very useful iOS tweaks
 Label: Siphonostb Repo
 Origin: Siphonostb Repo
 Suite: stable
 Version: 1.0
 MD5Sum:
- e63767fe52b1d7e7c7e22aaa13185abf              745 Packages
- 41eb269caa27d154d6692bba91246dad              510 Packages.bz2
- 9dc47b979ea4fc50273f0c2eafad3b5d              457 Packages.gz
- 995fe5eb1af2cbf4f3e7494198992cc3              524 Packages.xz
- 4bc06843f342a912ae474a1a6000ffa0             2183 Release
+ 17ba7c94735ab8e788887c90efdb9aef              745 Packages
+ 023e9d56b91d031d22dc7fa900f2c724              514 Packages.bz2
+ 9f449158960cf54f9b48c2b11e8dad24              457 Packages.gz
+ 8049e526c5d486732dff6ba57743357e              524 Packages.xz
+ ac27b714f122e783fe179ae8a3e3834b             2183 Release
 SHA1:
- afeea7d070c3d37ee81fd317761ea3c6551a7e71              745 Packages
- 956c2c4399d093123e99590223765e208cec80ca              510 Packages.bz2
- fab81a93835c7f0009cff71415e0f67d7a7d760e              457 Packages.gz
- d79f4116f9a5d24f250c611e1b8c447ef916a581              524 Packages.xz
- 4db764e66a27e38e918c6016f6514cbb28268753             2183 Release
+ 1ad8171d6f9fdb52d35449d1fd47792a425f06e8              745 Packages
+ c3ed6748f35ee7046ec671279d75f39002ecbbcb              514 Packages.bz2
+ 41b8d717dfbcf53f94a633f0b7426fc95efe8fc6              457 Packages.gz
+ 9addd29fda238f46c5c2f251a3185301661aa327              524 Packages.xz
+ 55aa404dd84e0af0bb4b978dc7b71bd1823a85fe             2183 Release
 SHA256:
- 6b7492616af56f4ae28840b2ae38dcad4d603e1e880c490a45334332a7f37ecc              745 Packages
- 8a292e0fcca42580707af763dabfa6775b8099d9c966e57f87965d7d15bb0723              510 Packages.bz2
- ae5ef51025d72503e8953d55c4400315e467ab3c28692f0bbdce2881f6467244              457 Packages.gz
- 9fef1e0d2ec537f9cb3a68351ffe43284ddd6815d9ee2fa7b7dfd899520a29e9              524 Packages.xz
- 350a637cd42aabf8d022f6bf0eec4ba4f8231d30a2ea962875342bedcfe87171             2183 Release
+ b13f961d14315a1fa308ff3c4871d0f3612a8e5f8137546a7b45694178757752              745 Packages
+ f6e0a461b0877ad017049796bfcd811cf4f2363d336dce137a480c8811b77332              514 Packages.bz2
+ c387957b09b8f2fa7e4ae2b2bcde6b0d17c13294cbd1c2117f718f255206f9c7              457 Packages.gz
+ 7fc17dbab7cd83c3c23b0f65ca8b0727a934a46aea8019aa571fe1df206b7c07              524 Packages.xz
+ e0e5a00ec5faaa1b911bf338c2989afeb91d6dc2e7f338d3f19c9461e741a969             2183 Release
 SHA512:
- 5f465f55f8ebe89ff65c8c912184d78dcc93571c661ebae31fb4d22e1967a7bb402bb4bc6e419d4d34434ed0e36075899e5b5276b09adf196f24ea552515d1a1              745 Packages
- d7dd7e57c700ca06d781b6180ca64ecde260b306a08002a7b5f692f11f0d304cf77adfe33c50bcf50c8be468563f2e38f844925c850d4e0b1c8643d2230f5489              510 Packages.bz2
- 47aa4d2696c9d931a1d24b1268790c2a2fd59d2f86e9bdf91e4cea41c51df58291331e313b750af04a2d1306ef068be3915011360d30794595aaf2bee45589ae              457 Packages.gz
- ea7e8810ea8fcdf20270f7176180e208b04ca452c621ac2c51793d2b9c78b73271ae240f89157a27af76048cec8f5bc04f1a11a553194cefebce854fe64b1226              524 Packages.xz
- 7ff94cd1f120d3f827111f3add016fdd87ce7b2c7d90151eeb8e761ecf016cae58d3477b03c0097a8eb0067e8b3a752e6fefcd727e72baf2ede0827f8cdabb63             2183 Release
+ 5114029328635bba96eda48147f3463af307458c8d7bdce6ae10e5f089209d131930115c2b3e64f2cf7bc4e4252e96069fb01b67e1ad5bfc060816db163b256c              745 Packages
+ 611a88b285f3e4b902af4143683022582845eb2329df6d580cc7417b3f9cf30f788f432ddff7f4dbf33227eb7d44e2151884a0e64d3a96670828dc7500e95b9e              514 Packages.bz2
+ 2698222ae13a84bd44769c6f96097e51cc8f3919c6db5f9fd7dc526a1bcb5acf1d18eb9888d1762e4f145f2996646935f587d5c9a5c2d5a9c89f757198aa0137              457 Packages.gz
+ d99e93fcf6ad049ac1472aac25f5ee6d5640eb357f86829854494b442f625f323476a0c412103c8b38983bd2a38cea9286c15b08c393ab859c8b2bfd2f2bf50f              524 Packages.xz
+ 83c5c011ebb7c79efab14350b28ec91a69459616ce99ec120b28050bc2423743d9a3a9e2bdf5539e3e782bc14297946bc670275c3846fc201bfaed1b8e64960d             2183 Release
