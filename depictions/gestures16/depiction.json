@@ -84,7 +84,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.3"
+          "text": "1.0.4"
         },
         {
           "class": "DepictionTableTextView",
@@ -102,6 +102,18 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.4",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- The Control Center grabber is now native"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionSubheaderView",
           "title": "1.0.3",
