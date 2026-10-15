@@ -1,0 +1,107 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/banner.png",
+  "tintColor": "#3478F6",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**BlurryLock** brings back the iOS 11-15 Lock Screen swipe blur on iOS 16."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Preview",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Default",
+          "useBoldText": true,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/screenshots/default.png",
+          "width": 180,
+          "height": 320,
+          "cornerRadius": 8,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "BlurryLock",
+          "useBoldText": true,
+          "alignment": 1
+        },
+        {
+          "class": "DepictionImageView",
+          "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/screenshots/blurrylock.png",
+          "width": 180,
+          "height": 320,
+          "cornerRadius": 8,
+          "alignment": 1,
+          "xPadding": 0
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Compatibility",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Works on all iPhones running **iOS 16**. It may also work on newer versions, but this hasn't been tested yet."
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS",
+          "text": "16.0 – 16.7.16"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "Siphonostb"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "1.0.0",
+          "useBoldText": true
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial public release"
+        }
+      ]
+    }
+  ]
+}
