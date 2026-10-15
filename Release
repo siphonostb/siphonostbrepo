@@ -1,7 +1,7 @@
 Architectures: iphoneos-arm64
 Codename: ios
 Components: main
-Date: Thu, 15 Oct 2026 09:54:34 +0000
+Date: Thu, 15 Oct 2026 10:22:47 +0000
 Description: A repository with great and very useful iOS tweaks
 Label: Siphonostb Repo
 Origin: Siphonostb Repo
@@ -10,24 +10,24 @@ Version: 1.0
 MD5Sum:
  88d6ba160507ca1804499e11118cfc78             1467 Packages
  921f47d4db01867a1092648e27317ff5              722 Packages.bz2
- 9d7fbf1ababdc2134a2e1001456db60d              644 Packages.gz
+ a992bcea850be9d1f1dd0f253171d687              644 Packages.gz
  ff847ce737cb9dc514738917f4238009              708 Packages.xz
- cdc9873aff35f23d688311512b752bf7             2183 Release
+ 8e6e1955801ed7e08d08b41d2819118a             2183 Release
 SHA1:
  8caa3d09b48220ed5baad52f12ff4bfbd2ab0bf3             1467 Packages
  27fbb6ac9a0b3f59f5c4d5bd304c89d397a09deb              722 Packages.bz2
- 4b6ef0ddc87bd858ec1c1cadbc39edaf6e66c896              644 Packages.gz
+ 10d2720d9a503c347a93eff279310c44a34859b1              644 Packages.gz
  97cd63f372e31190b87779830ce74d9af5472e30              708 Packages.xz
- 4bcc84060ab71ec696146e9b4caeded3ae57c097             2183 Release
+ 4f9cb8ed598a698bb2e830240fa0376cc2eddc67             2183 Release
 SHA256:
  128f675fbb3dd6f0757b6ccfc1e6cf431845d2efbb9ffe5b1b77776920982e94             1467 Packages
  1ee27889998dc610757b5e867b796ea6f34541ae136bc81b5b7b434bef5b4b29              722 Packages.bz2
- 53b2065cba6d19c3c1eaa836d372c6c8205a6d0b4a61f5bbced1dd555bb3d463              644 Packages.gz
+ 57024b38a528a00dea1674e1ccdc1aa0b111128731af6776528ce87d7812d4e3              644 Packages.gz
  a73da39e58f6c2dfb3b906fd77d9cdcaca3b22a892b390de4b4ecd87bc1c4310              708 Packages.xz
- 6964fd1085e98e063da3786da0feb758dd50e63946319c83ed6d62e0986a5b1a             2183 Release
+ 7bc4a59e47a9ee9b5364f37838f534fb70525c54e57afd7fd0cfcaa645352b67             2183 Release
 SHA512:
  49d43513dfc866ffc33e0137063059ec4487a8fbb972c524813b9a05faa5dd6abe3a6b1cb9138ffb87dda178585d8b32c12480c27a5bf3430eb88c8b3e2feef7             1467 Packages
  a499a32d399b8f7e598e1d77334f1c57a30cd4afe9509aaffffc05a5d1181884977db0565d5ed643f95ce75324ac11a5af4bee0fba6db0d832ca7299030a92cd              722 Packages.bz2
- 78e38514168a90d09888f79f545c13dd576722a43d2f9bba991637203a512fd8571664080da1a45f0d2e0adbd3e6f5233be7a99c60535c250005bb27cf8d1ccf              644 Packages.gz
+ 1ad9bd93ea9733a7cf3a4e867c9263e606125735b7504e5627ce071ce66ead109cde950b6bfc47e2b422c2b543f98dc9ddc9c4f9c323bf6dacb0e8d6b7726a6f              644 Packages.gz
  6ea300e22f044dc9b35fde90216b9dda43e450e7da60f69004f49434821315e213f137221c51b6347c19a3fc1c87d1f2dc841a6518a3e5b4dff0c2c023ae0234              708 Packages.xz
- b3374b877afb49df11882690d653655bfd97cf5ead68eecae3eae65883319267cb51412e3ce6165b2e8cb27ebb92a80103b11a5212357b8c5dfab55fdb963eb7             2183 Release
+ 92a478b2a7dffb4dd87f72899fae36b1380e0200028b0a44519e2d987a1e989bfe3be813123f78f938a35a1cde34350abc363f9289f3f76143689056ea11bdfb             2183 Release

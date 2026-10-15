@@ -25,38 +25,23 @@
           "useBottomMargin": true
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "Default",
-          "useBoldText": true,
-          "alignment": 1
+          "class": "DepictionMarkdownView",
+          "markdown": "A comparison between the default Lock Screen swipe animation and the BlurryLock animation:"
         },
         {
-          "class": "DepictionImageView",
-          "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/screenshots/default.png",
-          "width": 180,
-          "height": 320,
-          "cornerRadius": 8,
-          "alignment": 1,
-          "xPadding": 0
-        },
-        {
-          "class": "DepictionSpacerView",
-          "spacing": 12
-        },
-        {
-          "class": "DepictionSubheaderView",
-          "title": "BlurryLock",
-          "useBoldText": true,
-          "alignment": 1
-        },
-        {
-          "class": "DepictionImageView",
-          "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/screenshots/blurrylock.png",
-          "width": 180,
-          "height": 320,
-          "cornerRadius": 8,
-          "alignment": 1,
-          "xPadding": 0
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 0,
+          "itemSize": "{160, 284}",
+          "screenshots": [
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/screenshots/default.png",
+              "accessibilityText": "Default Lock Screen animation"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/screenshots/blurrylock.png",
+              "accessibilityText": "BlurryLock animation"
+            }
+          ]
         },
         {
           "class": "DepictionHeaderView",
