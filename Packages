@@ -5,14 +5,16 @@ Maintainer: Siphonostb
 Installed-Size: 168
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0)
 Filename: ./debs/com.siphonostb.blurrylock_1.0.0_iphoneos-arm64.deb
-Size: 3416
-MD5sum: 3b8681e5d67d80dae3c81870cc9c0609
-SHA1: e2dff32a64372c7bea09f2d2789a8408daca9746
-SHA256: 276880df848f64b79572f3bcf601c09cf7f31ebc5b24f7663ba0e0e1578a614f
+Size: 3468
+MD5sum: 9f967d0e01735f254f3cd3971a398713
+SHA1: f7b884e44cb56bbe0aae704f36387de22436b409
+SHA256: ea98d233d03b2e289e95a79b277a9890bff2a473d790389991aba90583587f23
 Section: Tweaks
 Description: Brings back the iOS 15 lock screen swipe blur on iOS 16.
 Author: Siphonostb
+Icon: https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/icon.png
 Name: BlurryLock
+Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/depiction.json
 
 Package: com.siphonostb.gestures16
 Version: 1.0.4
