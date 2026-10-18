@@ -9,46 +9,53 @@
       "class": "DepictionStackView",
       "views": [
         {
+          "class": "DepictionSubheaderView",
+          "title": "Native iOS gestures on Home button iPhones",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 8,
+          "itemSize": "{160, 284}",
+          "screenshots": [
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.jpg",
+              "accessibilityText": "Lock Screen"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/2.jpg",
+              "accessibilityText": "Control Center"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.jpg",
+              "accessibilityText": "Home Screen"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/4.jpg",
+              "accessibilityText": "Home Screen settings"
+            },
+            {
+              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/5.jpg",
+              "accessibilityText": "Status Bar settings"
+            }
+          ]
+        },
+        {
           "class": "DepictionHeaderView",
           "title": "Description",
           "useBoldText": true,
           "useBottomMargin": true
         },
         {
+          "class": "DepictionSeparatorView"
+        },
+        {
           "class": "DepictionMarkdownView",
-          "markdown": "**Gestures16** unlocks the native iOS gesture navigation on iPhones with a Home button."
+          "markdown": "**Gestures16** activates the native iOS gesture system on iPhones with a Home button, without changing the interface much — it still feels like stock iOS.\n\nThe tweak has settings that let you tailor it to your taste, such as the Home Screen search style and the Status Bar style."
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "Screenshots",
-          "useBoldText": true,
-          "useBottomMargin": true
-        },
-        {
-          "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 0,
-          "itemSize": "{160, 284}",
-          "screenshots": [
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.png",
-              "accessibilityText": "Screenshot 1"
-            },
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/2.png",
-              "accessibilityText": "Screenshot 2"
-            },
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.png",
-              "accessibilityText": "Screenshot 3"
-            },
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/4.png",
-              "accessibilityText": "Screenshot 4"
-            }
-          ]
-        },
-        {
-          "class": "DepictionHeaderView",
+          "class": "DepictionSubheaderView",
           "title": "Features",
           "useBoldText": true,
           "useBottomMargin": true
@@ -56,27 +63,33 @@
         {
           "class": "DepictionMarkdownView",
           "useRawFormat": true,
-          "markdown": "<style>ul{margin:0;padding-left:20px;}li{line-height:1.45;margin-bottom:12px;}</style><ul><li><b>Native gesture navigation</b> — swipe up to go Home, swipe and hold to open the App Switcher, and swipe along the bottom edge to jump between apps</li><li><b>Face ID-style status bar</b> — the modern iPhone X layout with the clock on the left and Control Center access from the top-right corner</li><li><b>Lock Screen Quick Actions</b> — Flashlight and Camera buttons right on the Lock Screen</li></ul>"
+          "markdown": "<style>ul{margin:0;padding-left:20px;}li{line-height:1.45;margin-bottom:12px;}</style><ul><li><b>Full native gesture system</b> — swipe up to go Home, swipe and hold for the App Switcher, and swipe along the bottom edge to switch apps</li><li><b>Control Center from the top</b> — pull it down from the top-right corner, just like on Face ID iPhones</li><li><b>Modern status bar</b> — the iPhone X-style layout, with the classic style available in settings</li><li><b>Lock Screen Quick Actions</b> — Flashlight and Camera buttons right on the Lock Screen</li></ul>"
         },
         {
-          "class": "DepictionHeaderView",
+          "class": "DepictionSubheaderView",
           "title": "Compatibility",
           "useBoldText": true,
           "useBottomMargin": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Supported on **iPhone 8**, **iPhone 8 Plus**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**."
+          "markdown": "Supported on **iPhone 8**, **iPhone 8 Plus**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**.\n\nThe tweak may also work on **iOS 17.0 – 17.3.1**, but this hasn't been fully tested yet."
         },
         {
-          "class": "DepictionHeaderView",
-          "title": "Settings",
+          "class": "DepictionSubheaderView",
+          "title": "Known issues",
           "useBoldText": true,
           "useBottomMargin": true
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Gestures16 has no settings yet — the only option is to turn it on or off. More customization is planned for future updates."
+          "markdown": "Minor interface resolution glitches may occur on iPhone 8 Plus."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information",
+          "useBoldText": true,
+          "useBottomMargin": true
         },
         {
           "class": "DepictionSeparatorView"
@@ -84,17 +97,30 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.0.4"
+          "text": "1.1"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "iOS",
+          "title": "Size",
+          "text": "910 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions",
           "text": "16.0 – 16.7.16"
         },
         {
-          "class": "DepictionTableTextView",
+          "class": "DepictionHeaderView",
           "title": "Developer",
-          "text": "Siphonostb"
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Siphonostb"
         }
       ]
     },
@@ -103,9 +129,51 @@
       "class": "DepictionStackView",
       "views": [
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.4",
-          "useBoldText": true
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 18, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added tweak settings"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.4",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 15, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -115,9 +183,24 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.3",
-          "useBoldText": true
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.3",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 14, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -127,9 +210,24 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.2",
-          "useBoldText": true
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.2",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 13, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -139,9 +237,24 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.1",
-          "useBoldText": true
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 12, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
@@ -151,13 +264,28 @@
           "class": "DepictionSeparatorView"
         },
         {
-          "class": "DepictionSubheaderView",
-          "title": "1.0.0",
-          "useBoldText": true
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 11, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Initial public release"
+          "markdown": "- Initial release"
         }
       ]
     }
