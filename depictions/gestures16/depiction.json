@@ -57,7 +57,7 @@
         {
           "class": "DepictionLabelView",
           "text": "Features",
-          "fontSize": 22,
+          "fontSize": 20,
           "fontWeight": "bold",
           "usePadding": true
         },
@@ -69,7 +69,7 @@
         {
           "class": "DepictionLabelView",
           "text": "Compatibility",
-          "fontSize": 22,
+          "fontSize": 20,
           "fontWeight": "bold",
           "usePadding": true
         },
@@ -80,7 +80,7 @@
         {
           "class": "DepictionLabelView",
           "text": "Known issues",
-          "fontSize": 22,
+          "fontSize": 20,
           "fontWeight": "bold",
           "usePadding": true
         },
