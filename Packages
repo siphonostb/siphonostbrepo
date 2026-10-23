@@ -17,16 +17,16 @@ Name: BlurryLock
 Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/blurrylock/depiction.json
 
 Package: com.siphonostb.gestures16
-Version: 1.1
+Version: 1.2
 Architecture: iphoneos-arm64
 Maintainer: Siphonostb
-Installed-Size: 1688
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), preferenceloader
-Filename: ./debs/com.siphonostb.gestures16_1.1_iphoneos-arm64.deb
-Size: 910388
-MD5sum: 40c3d8752fbabcbf45d649c028e60d8b
-SHA1: 701be97ede6aaad956fd73dee6e2bb95aef99f8d
-SHA256: 5266afabdf399a17a70cdc5c849d9953c5eff8abc8c654e31ef0fd729fb23877
+Installed-Size: 2496
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 16.0), firmware (<< 17.0), preferenceloader
+Filename: ./debs/com.siphonostb.gestures16_1.2_iphoneos-arm64.deb
+Size: 1631100
+MD5sum: 3491264775dcf069e00655a16cd96902
+SHA1: 8568a3d078c5728b054774e8f389d601459b7745
+SHA256: 99d595e77916fa19396f5e10c33c25bcc7f86f3c6e57c6af5b9603081ab3327a
 Section: Tweaks
 Description: Native gesture navigation for Home button iPhones on iOS 16.
 Author: Siphonostb
