@@ -75,7 +75,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Supported on **iPhone 8**, **iPhone 8 Plus**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**.\n\nThe tweak may also work on **iOS 17.0 – 17.3.1**, but this hasn't been fully tested yet."
+          "markdown": "Supported on **iPhone 8**, **iPhone 8 Plus**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**."
         },
         {
           "class": "DepictionLabelView",
@@ -100,12 +100,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.1"
+          "text": "1.2"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "910 KB"
+          "text": "1,6 MB"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +131,33 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 24, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Added keyboard style and screenshot style settings, and a choice of stock button combinations\n- Fixed some padding issues"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
