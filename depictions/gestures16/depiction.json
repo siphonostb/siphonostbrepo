@@ -30,14 +30,6 @@
             {
               "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.jpg",
               "accessibilityText": "Home Screen"
-            },
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/4.jpg",
-              "accessibilityText": "Home Screen settings"
-            },
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/5.jpg",
-              "accessibilityText": "Status Bar settings"
             }
           ]
         },
@@ -86,7 +78,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Minor interface resolution glitches may occur on iPhone 8 Plus."
+          "markdown": "No major issues have been found at the moment."
         },
         {
           "class": "DepictionHeaderView",
@@ -100,7 +92,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2"
+          "text": "1.2.1"
         },
         {
           "class": "DepictionTableTextView",
@@ -131,6 +123,33 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.2.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 27, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed Lock Screen notifications and media player position on all devices\n- Fixed Lock Screen quick action buttons and passcode keypad size on iPhone 8 Plus"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
