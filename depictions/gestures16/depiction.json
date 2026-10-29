@@ -44,7 +44,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Gestures16** activates the native iOS gesture system on iPhones with a Home button, without changing the interface much — it still feels like stock iOS.\n\nThe tweak has settings that let you tailor it to your taste."
+          "markdown": "**Gestures16** activates the native iOS gesture system on iPhones with a Home button, without changing the interface much — it still feels like stock iOS."
         },
         {
           "class": "DepictionLabelView",
@@ -70,17 +70,6 @@
           "markdown": "Supported on **iPhone 8**, **iPhone 8 Plus**, **iPhone SE (2020)** and **iPhone SE (2022)** running **iOS 16.0 – 16.7.16**."
         },
         {
-          "class": "DepictionLabelView",
-          "text": "Known issues",
-          "fontSize": 18,
-          "fontWeight": "bold",
-          "margins": "{16, 16, 0, 16}"
-        },
-        {
-          "class": "DepictionMarkdownView",
-          "markdown": "No major issues have been found at the moment."
-        },
-        {
           "class": "DepictionHeaderView",
           "title": "Information",
           "useBoldText": true,
@@ -92,7 +81,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.2.1"
+          "text": "1.3"
         },
         {
           "class": "DepictionTableTextView",
@@ -123,6 +112,33 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 30, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed the status bar layout on iPhone 8 Plus\n- Fixed the position of the privacy indicator\n- Added Russian localization"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
