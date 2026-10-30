@@ -15,23 +15,36 @@
           "useBottomMargin": true
         },
         {
-          "class": "DepictionScreenshotsView",
-          "itemCornerRadius": 8,
-          "itemSize": "{160, 284}",
-          "screenshots": [
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 12,
+          "views": [
             {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/1.jpg",
-              "accessibilityText": "Lock Screen"
+              "class": "DepictionVideoView",
+              "preferredWidth": 165,
+              "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/video1.mp4",
+              "width": 165,
+              "height": 293,
+              "cornerRadius": 8,
+              "autoplay": true,
+              "loop": true,
+              "showPlaybackControls": false
             },
             {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/2.jpg",
-              "accessibilityText": "Control Center"
-            },
-            {
-              "url": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/screenshots/3.jpg",
-              "accessibilityText": "Home Screen"
+              "class": "DepictionVideoView",
+              "preferredWidth": 165,
+              "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/video2.mp4",
+              "width": 165,
+              "height": 293,
+              "cornerRadius": 8,
+              "autoplay": true,
+              "loop": true,
+              "showPlaybackControls": false
             }
           ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
         },
         {
           "class": "DepictionHeaderView",
