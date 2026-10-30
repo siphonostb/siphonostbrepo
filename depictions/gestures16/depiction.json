@@ -94,12 +94,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.3"
+          "text": "1.3.1"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "1,6 MB"
+          "text": "1,2 MB"
         },
         {
           "class": "DepictionTableTextView",
@@ -125,6 +125,33 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.1",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "October 31, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Updated preview images and settings icon\n- Hide Inset is now only available with the Classic status bar style due to issues in certain applications"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
