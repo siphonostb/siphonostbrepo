@@ -99,7 +99,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Size",
-          "text": "1,2 MB"
+          "text": "2,3 MB"
         },
         {
           "class": "DepictionTableTextView",
@@ -174,7 +174,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Fixed the status bar layout on iPhone 8 Plus\n- Fixed the position of the privacy indicator\n- Added Russian localization"
+          "markdown": "- Fixed the size of the status bar on iPhone 8 Plus\n- Fixed the position of the privacy indicator\n- Added Russian localization"
         },
         {
           "class": "DepictionSeparatorView"
@@ -363,7 +363,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "- Fixed status bar layout on iPhone 8 Plus"
+          "markdown": "- Fixed the status bar layout on iPhone 8 Plus"
         },
         {
           "class": "DepictionSeparatorView"
