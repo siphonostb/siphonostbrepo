@@ -1,0 +1,143 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://siphonostb.github.io/siphonostbrepo/depictions/taffy/banner.png",
+  "tintColor": "#C5700F",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Stretchy iOS 17 sliders on iOS 16",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 12,
+          "views": [
+            {
+              "class": "DepictionVideoView",
+              "preferredWidth": 165,
+              "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/taffy/video1.mp4",
+              "width": 165,
+              "height": 293,
+              "cornerRadius": 8,
+              "autoplay": true,
+              "loop": true,
+              "showPlaybackControls": false
+            },
+            {
+              "class": "DepictionVideoView",
+              "preferredWidth": 165,
+              "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/taffy/video2.mp4",
+              "width": 165,
+              "height": 293,
+              "cornerRadius": 8,
+              "autoplay": true,
+              "loop": true,
+              "showPlaybackControls": false
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**Taffy** brings the stretchy sliders from iOS 17 to iOS 16. Pull a slider past its maximum or minimum, and it gently stretches in the direction you're pulling, then springs back when you let go.\n\nIt works with the brightness and volume sliders in Control Center (both compact and expanded), the volume HUD that appears when you press the volume buttons (in portrait and landscape), and the volume and playback sliders of the media player in Control Center and on the Lock Screen.\n\nThe effect can be turned on or off at any time in Settings, without a respring."
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Compatibility",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "margins": "{16, 16, 0, 16}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Supported on **all iPhones** running **iOS 16.0 – 16.7.16**."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "532 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions",
+          "text": "16.0 – 16.7.16"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Developer",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Siphonostb"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "November 1, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release"
+        }
+      ]
+    }
+  ]
+}

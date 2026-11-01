@@ -34,3 +34,21 @@ Icon: https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/icon.png
 Name: Gestures16
 Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/depiction.json
 
+Package: com.siphonostb.taffy
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Siphonostb
+Installed-Size: 532
+Depends: mobilesubstrate, preferenceloader, firmware (>= 16.0), firmware (<< 17.0)
+Filename: ./debs/com.siphonostb.taffy_1.0_iphoneos-arm64.deb
+Size: 65678
+MD5sum: d740ea5036bce1b39589110de96fa729
+SHA1: f1271fb4eeb08f5941048d5be606a37fdbfb0688
+SHA256: 7b89af655f039d4226fcdb2d20f3ee98a4908b8e6ab55384afdd23d292aa843f
+Section: Tweaks
+Description: Stretchy iOS 17 sliders on iOS 16
+Author: Siphonostb
+Icon: https://siphonostb.github.io/siphonostbrepo/depictions/taffy/icon.png
+Name: Taffy
+Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/taffy/depiction.json
+
