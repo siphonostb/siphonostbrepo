@@ -57,7 +57,7 @@
         },
         {
           "class": "DepictionMarkdownView",
-          "markdown": "**Taffy** brings the stretchy sliders from iOS 17 to iOS 16. Pull a slider past its maximum or minimum, and it gently stretches in the direction you're pulling, then springs back when you let go.\n\nIt works with the brightness and volume sliders in Control Center (both compact and expanded), the volume HUD that appears when you press the volume buttons (in portrait and landscape), and the volume and playback sliders of the media player in Control Center and on the Lock Screen.\n\nThe effect can be turned on or off at any time in Settings, without a respring."
+          "markdown": "**Taffy** brings the stretchy sliders from iOS 17 to iOS 16. Pull a slider past its maximum or minimum, and it gently stretches in the direction you're pulling, then springs back when you let go.\n\nIt works with the brightness and volume sliders in Control Center (both compact and expanded), the volume HUD that appears when you press the volume buttons (in portrait and landscape), and the volume and playback sliders of the media player in Control Center and on the Lock Screen."
         },
         {
           "class": "DepictionLabelView",
