@@ -94,7 +94,7 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "1.3.1"
+          "text": "1.3.2"
         },
         {
           "class": "DepictionTableTextView",
@@ -125,6 +125,33 @@
       "tabname": "Changelog",
       "class": "DepictionStackView",
       "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.3.2",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "November 10, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Fixed the missing Use Passcode, Emergency and Cancel buttons on the Touch ID prompt when long pressing the locked Lock Screen"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
         {
           "class": "DepictionLayerView",
           "views": [
