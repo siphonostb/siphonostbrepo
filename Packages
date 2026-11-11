@@ -16,6 +16,26 @@ Icon: https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/icon.png
 Name: Gestures16
 Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/gestures16/depiction.json
 
+Package: com.siphonostb.mistlock
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Siphonostb
+Installed-Size: 488
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 16.0)
+Conflicts: com.siphonostb.blurrylock
+Replaces: com.siphonostb.blurrylock
+Filename: ./debs/com.siphonostb.mistlock_1.0_iphoneos-arm64.deb
+Size: 62682
+MD5sum: 041276684457200dce84c55e5ce0f97e
+SHA1: 3dc0913af6eae34b4b274f26189a7dc9ed598103
+SHA256: 0242d0a9187de952dc8ebec669ea903ec63c1d745fbdbab65fc40ae04182f64b
+Section: Tweaks
+Description: Brings back the iOS 15 lock screen swipe blur on iOS 16.
+Author: Siphonostb
+Icon: https://siphonostb.github.io/siphonostbrepo/depictions/mistlock/icon.png
+Name: MistLock
+Sileodepiction: https://siphonostb.github.io/siphonostbrepo/depictions/mistlock/depiction.json
+
 Package: com.siphonostb.taffy
 Version: 1.0
 Architecture: iphoneos-arm64

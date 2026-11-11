@@ -1,0 +1,143 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "https://siphonostb.github.io/siphonostbrepo/depictions/mistlock/banner.png",
+  "tintColor": "#1A7FD4",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "The classic iOS 15 lock screen blur on iOS 16",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionAutoStackView",
+          "horizontalSpacing": 12,
+          "views": [
+            {
+              "class": "DepictionVideoView",
+              "preferredWidth": 165,
+              "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/mistlock/video1.mp4",
+              "width": 165,
+              "height": 293,
+              "cornerRadius": 8,
+              "autoplay": true,
+              "loop": true,
+              "showPlaybackControls": false
+            },
+            {
+              "class": "DepictionVideoView",
+              "preferredWidth": 165,
+              "URL": "https://siphonostb.github.io/siphonostbrepo/depictions/mistlock/video2.mp4",
+              "width": 165,
+              "height": 293,
+              "cornerRadius": 8,
+              "autoplay": true,
+              "loop": true,
+              "showPlaybackControls": false
+            }
+          ]
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 16
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Description",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**MistLock** brings back the classic lock screen blur from iOS 11–15 to iOS 16. As soon as you start swiping the lock screen, the background smoothly blurs and gains color, following your finger exactly, just like it used to.\n\nOn iOS 16 the blur doesn't appear at all when unlocking, and when the device is already unlocked it only kicks in once the swipe reaches the middle of the screen, and at half the strength. MistLock restores the original behavior everywhere: when unlocking, when pulling the lock screen down and when pushing it back up.\n\nIt also brings back the classic wallpaper motion: when you pull the lock screen down over an app, the wallpaper slides along with it instead of standing still.\n\nWallpapers with the **depth effect** and **animated wallpapers** are fully supported.\n\nBoth features can be turned on or off separately in the tweak's settings."
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Compatibility",
+          "fontSize": 18,
+          "fontWeight": "bold",
+          "margins": "{16, 16, 0, 16}"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Supported on **all iPhones** running **iOS 16.0 – 16.7.16**.\n\nMistLock may also work on **iOS 17 and 18**, but it hasn't been fully tested there, so some issues are possible."
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Information",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.0"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Size",
+          "text": "332 KB"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "iOS Versions",
+          "text": "16.0 – 16.7.16+"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Developer",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Siphonostb"
+        }
+      ]
+    },
+    {
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "class": "DepictionLabelView",
+              "text": "1.0",
+              "fontSize": 17,
+              "fontWeight": "bold",
+              "alignment": 0
+            },
+            {
+              "class": "DepictionLabelView",
+              "text": "November 11, 2026",
+              "fontSize": 15,
+              "fontWeight": "semibold",
+              "textColor": "#8E8E93",
+              "alignment": 2
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- Initial release"
+        }
+      ]
+    }
+  ]
+}
